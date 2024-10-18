@@ -1,0 +1,265 @@
+Problema #1
+
+Bienvenido a la calculadora de simulaciones de python.
+¿Que deseas realizar?
+0. Finalizar
+1. Simulador de peluquería      
+2. Simulador de sistema de redes
+3. Simulador de reaccion quimica
+4. Simulador de reactor nuclear 
+5. Simulador de restaurante
+6. Simulador de restaurante 2
+Ingresa la opcion deseada: 1
+
+Ingrese la semilla (int): 35
+Ingrese el número de peluqueros (int): 2
+Ingrese el tiempo de corte mínimo: 12
+Ingrese el tiempo de corte máximo: 25
+Ingrese el tiempo de llegadas: 15
+Ingrese el total de clientes (int): 4
+---Simulación Peluquería---
+--> cliente 1 llegó a la peluquería en el minuto 9.00
+cliente 1 pasa y espera en la peluquería en el minuto 9.00, habiendo esperado 0.00
+--> cliente 2 llegó a la peluquería en el minuto 13.31
+cliente 2 pasa y espera en la peluquería en el minuto 13.31, habiendo esperado 0.00
+--> cliente 3 llegó a la peluquería en el minuto 15.48
+--> cliente 4 llegó a la peluquería en el minuto 16.01
+Corte listo para cliente 2 en 15.72 minutos
+<-- cliente 2 deja la peluquería en el minuto 29.02
+cliente 3 pasa y espera en la peluquería en el minuto 29.02, habiendo esperado 13.54
+Corte listo para cliente 1 en 21.71 minutos
+<-- cliente 1 deja la peluquería en el minuto 30.72
+cliente 4 pasa y espera en la peluquería en el minuto 30.72, habiendo esperado 14.71
+Corte listo para cliente 3 en 19.37 minutos
+<-- cliente 3 deja la peluquería en el minuto 48.39
+Corte listo para cliente 4 en 21.72 minutos
+<-- cliente 4 deja la peluquería en el minuto 52.43
+Indicadores obtenidos:
+Longitud promedio de la cola: 0.54
+Tiempo de espera promedio: 7.06
+Uso promedio de la instalación: 0.75
+
+Conclusión:
+	Cada cliente esperará un tiempo promedio de 7.06 minutos.
+	El uso promedio del peluquero fue de 0.75.
+	La longitud promedio de la cola de espera fue de 0.54
+
+
+
+
+Problema #2
+
+Bienvenido a la calculadora de simulaciones de python.
+¿Que deseas realizar?
+0. Finalizar
+1. Simulador de peluquería
+2. Simulador de sistema de redes
+3. Simulador de reaccion quimica
+4. Simulador de reactor nuclear
+5. Simulador de restaurante
+6. Simulador de restaurante 2
+Ingresa la opcion deseada: 2
+
+Ingrese la semilla: 32
+Ingrese la capacidad del servidor (número de paquetes que puede procesar simultáneamente): 1
+Ingrese la capacidad de la cola de espera: 5
+Ingrese el tiempo mínimo de procesamiento de un paquete (en segundos): 3
+Ingrese el tiempo máximo de procesamiento de un paquete (en segundos): 6
+Ingrese el tiempo promedio entre llegadas de paquetes (en segundos): 2.5
+Ingrese el número total de paquetes a simular: 60
+--- Simulación de Red de Computadoras ---
+Paquete 1 llega al servidor en el segundo 0.20
+Paquete 1 comienza a ser procesado después de esperar 0.00 segundos en el segundo 0.20
+Paquete 2 llega al servidor en el segundo 0.80
+Paquete 3 llega al servidor en el segundo 3.80
+Paquete 4 llega al servidor en el segundo 4.48
+Paquete 5 llega al servidor en el segundo 4.54
+Paquete 6 llega al servidor en el segundo 4.64
+Paquete 6 se pierde debido a cola llena en el segundo 4.64
+Paquete 1 termina de ser procesado en el segundo 5.20
+Paquete 2 comienza a ser procesado después de esperar 4.40 segundos en el segundo 5.20
+Paquete 7 llega al servidor en el segundo 5.62
+Paquete 2 termina de ser procesado en el segundo 10.20
+Paquete 3 comienza a ser procesado después de esperar 6.40 segundos en el segundo 10.20
+Paquete 8 llega al servidor en el segundo 10.25
+Paquete 9 llega al servidor en el segundo 11.41
+Paquete 9 se pierde debido a cola llena en el segundo 11.41
+Paquete 10 llega al servidor en el segundo 11.41
+Paquete 10 se pierde debido a cola llena en el segundo 11.41
+Paquete 11 llega al servidor en el segundo 14.93
+Paquete 11 se pierde debido a cola llena en el segundo 14.93
+Paquete 12 llega al servidor en el segundo 15.27
+Paquete 12 se pierde debido a cola llena en el segundo 15.27
+Paquete 13 llega al servidor en el segundo 15.29
+Paquete 13 se pierde debido a cola llena en el segundo 15.29
+Paquete 3 termina de ser procesado en el segundo 16.20
+Paquete 4 comienza a ser procesado después de esperar 11.72 segundos en el segundo 16.20
+Paquete 14 llega al servidor en el segundo 18.57
+Paquete 4 termina de ser procesado en el segundo 20.20
+Paquete 5 comienza a ser procesado después de esperar 15.66 segundos en el segundo 20.20
+Paquete 15 llega al servidor en el segundo 23.10
+Paquete 5 termina de ser procesado en el segundo 24.20
+Paquete 7 comienza a ser procesado después de esperar 18.58 segundos en el segundo 24.20
+Paquete 16 llega al servidor en el segundo 24.58
+Paquete 17 llega al servidor en el segundo 24.90
+Paquete 17 se pierde debido a cola llena en el segundo 24.90
+Paquete 7 termina de ser procesado en el segundo 29.20
+Paquete 8 comienza a ser procesado después de esperar 18.95 segundos en el segundo 29.20
+Paquete 8 termina de ser procesado en el segundo 32.20
+Paquete 14 comienza a ser procesado después de esperar 13.63 segundos en el segundo 32.20
+Paquete 18 llega al servidor en el segundo 34.41
+Paquete 19 llega al servidor en el segundo 35.85
+Paquete 14 termina de ser procesado en el segundo 36.20
+Paquete 15 comienza a ser procesado después de esperar 13.10 segundos en el segundo 36.20
+Paquete 20 llega al servidor en el segundo 37.27
+Paquete 15 termina de ser procesado en el segundo 39.20
+Paquete 16 comienza a ser procesado después de esperar 14.63 segundos en el segundo 39.20
+Paquete 21 llega al servidor en el segundo 39.29
+Paquete 22 llega al servidor en el segundo 39.74
+Paquete 22 se pierde debido a cola llena en el segundo 39.74
+Paquete 23 llega al servidor en el segundo 40.67
+Paquete 23 se pierde debido a cola llena en el segundo 40.67
+Paquete 16 termina de ser procesado en el segundo 43.20
+Paquete 18 comienza a ser procesado después de esperar 8.79 segundos en el segundo 43.20
+Paquete 18 termina de ser procesado en el segundo 47.20
+Paquete 19 comienza a ser procesado después de esperar 11.35 segundos en el segundo 47.20
+Paquete 24 llega al servidor en el segundo 47.27
+Paquete 25 llega al servidor en el segundo 49.37
+Paquete 26 llega al servidor en el segundo 51.52
+Paquete 26 se pierde debido a cola llena en el segundo 51.52
+Paquete 19 termina de ser procesado en el segundo 52.20
+Paquete 20 comienza a ser procesado después de esperar 14.94 segundos en el segundo 52.20
+Paquete 27 llega al servidor en el segundo 55.19
+Paquete 28 llega al servidor en el segundo 55.84
+Paquete 28 se pierde debido a cola llena en el segundo 55.84
+Paquete 29 llega al servidor en el segundo 56.84
+Paquete 29 se pierde debido a cola llena en el segundo 56.84
+Paquete 20 termina de ser procesado en el segundo 57.20
+Paquete 21 comienza a ser procesado después de esperar 17.91 segundos en el segundo 57.20
+Paquete 30 llega al servidor en el segundo 57.54
+Paquete 31 llega al servidor en el segundo 62.14
+Paquete 31 se pierde debido a cola llena en el segundo 62.14
+Paquete 32 llega al servidor en el segundo 63.00
+Paquete 32 se pierde debido a cola llena en el segundo 63.00
+Paquete 21 termina de ser procesado en el segundo 63.20
+Paquete 24 comienza a ser procesado después de esperar 15.93 segundos en el segundo 63.20
+Paquete 33 llega al servidor en el segundo 65.98
+Paquete 34 llega al servidor en el segundo 66.00
+Paquete 34 se pierde debido a cola llena en el segundo 66.00
+Paquete 35 llega al servidor en el segundo 66.50
+Paquete 35 se pierde debido a cola llena en el segundo 66.50
+Paquete 36 llega al servidor en el segundo 66.94
+Paquete 36 se pierde debido a cola llena en el segundo 66.94
+Paquete 24 termina de ser procesado en el segundo 69.20
+Paquete 25 comienza a ser procesado después de esperar 19.83 segundos en el segundo 69.20
+Paquete 25 termina de ser procesado en el segundo 72.20
+Paquete 27 comienza a ser procesado después de esperar 17.01 segundos en el segundo 72.20
+Paquete 27 termina de ser procesado en el segundo 76.20
+Paquete 30 comienza a ser procesado después de esperar 18.66 segundos en el segundo 76.20
+Paquete 37 llega al servidor en el segundo 78.83
+Paquete 38 llega al servidor en el segundo 78.95
+Paquete 39 llega al servidor en el segundo 79.85
+Paquete 40 llega al servidor en el segundo 81.06
+Paquete 40 se pierde debido a cola llena en el segundo 81.06
+Paquete 30 termina de ser procesado en el segundo 81.20
+Paquete 33 comienza a ser procesado después de esperar 15.22 segundos en el segundo 81.20
+Paquete 41 llega al servidor en el segundo 81.60
+Paquete 42 llega al servidor en el segundo 83.28
+Paquete 42 se pierde debido a cola llena en el segundo 83.28
+Paquete 33 termina de ser procesado en el segundo 84.20
+Paquete 37 comienza a ser procesado después de esperar 5.37 segundos en el segundo 84.20
+Paquete 43 llega al servidor en el segundo 85.04
+Paquete 37 termina de ser procesado en el segundo 89.20
+Paquete 38 comienza a ser procesado después de esperar 10.25 segundos en el segundo 89.20
+Paquete 44 llega al servidor en el segundo 92.62
+Paquete 45 llega al servidor en el segundo 94.25
+Paquete 45 se pierde debido a cola llena en el segundo 94.25
+Paquete 38 termina de ser procesado en el segundo 95.20
+Paquete 39 comienza a ser procesado después de esperar 15.35 segundos en el segundo 95.20
+Paquete 39 termina de ser procesado en el segundo 99.20
+Paquete 41 comienza a ser procesado después de esperar 17.60 segundos en el segundo 99.20
+Paquete 46 llega al servidor en el segundo 101.12
+Paquete 47 llega al servidor en el segundo 102.98
+Paquete 41 termina de ser procesado en el segundo 104.20
+Paquete 43 comienza a ser procesado después de esperar 19.16 segundos en el segundo 104.20
+Paquete 48 llega al servidor en el segundo 104.76
+Paquete 49 llega al servidor en el segundo 105.97
+Paquete 49 se pierde debido a cola llena en el segundo 105.97
+Paquete 50 llega al servidor en el segundo 108.14
+Paquete 50 se pierde debido a cola llena en el segundo 108.14
+Paquete 43 termina de ser procesado en el segundo 108.20
+Paquete 44 comienza a ser procesado después de esperar 15.58 segundos en el segundo 108.20
+Paquete 51 llega al servidor en el segundo 109.30
+Paquete 52 llega al servidor en el segundo 111.62
+Paquete 52 se pierde debido a cola llena en el segundo 111.62
+Paquete 44 termina de ser procesado en el segundo 112.20
+Paquete 46 comienza a ser procesado después de esperar 11.08 segundos en el segundo 112.20
+Paquete 53 llega al servidor en el segundo 115.93
+Paquete 54 llega al servidor en el segundo 116.30
+Paquete 54 se pierde debido a cola llena en el segundo 116.30
+Paquete 55 llega al servidor en el segundo 117.01
+Paquete 55 se pierde debido a cola llena en el segundo 117.01
+Paquete 56 llega al servidor en el segundo 117.01
+Paquete 56 se pierde debido a cola llena en el segundo 117.01
+Paquete 57 llega al servidor en el segundo 117.08
+Paquete 57 se pierde debido a cola llena en el segundo 117.08
+Paquete 46 termina de ser procesado en el segundo 117.20
+Paquete 47 comienza a ser procesado después de esperar 14.22 segundos en el segundo 117.20
+Paquete 47 termina de ser procesado en el segundo 121.20
+Paquete 48 comienza a ser procesado después de esperar 16.44 segundos en el segundo 121.20
+Paquete 58 llega al servidor en el segundo 124.65
+Paquete 48 termina de ser procesado en el segundo 126.20
+Paquete 51 comienza a ser procesado después de esperar 16.90 segundos en el segundo 126.20
+Paquete 59 llega al servidor en el segundo 128.41
+Paquete 51 termina de ser procesado en el segundo 132.20
+Paquete 53 comienza a ser procesado después de esperar 16.27 segundos en el segundo 132.20
+Paquete 60 llega al servidor en el segundo 134.80
+Paquete 53 termina de ser procesado en el segundo 138.20
+Paquete 58 comienza a ser procesado después de esperar 13.55 segundos en el segundo 138.20
+Paquete 58 termina de ser procesado en el segundo 144.20
+Paquete 59 comienza a ser procesado después de esperar 15.79 segundos en el segundo 144.20
+Paquete 59 termina de ser procesado en el segundo 147.20
+Paquete 60 comienza a ser procesado después de esperar 12.40 segundos en el segundo 147.20
+Paquete 60 termina de ser procesado en el segundo 152.20
+--- Fin de la simulación ---
+
+Resultados de la simulación:
+Total de paquetes simulados: 60
+Paquetes procesados: 33
+Paquetes perdidos: 27
+Tasa de pérdida de paquetes: 45.00%
+Tiempo promedio de espera de los paquetes: 13.84 segundos
+Utilización del servidor: 97.57%
+
+Conclusión:
+	De los 60 paquetes simulados, se procesaron 33 y se perdieron 27
+	Por lo tanto la tasa de pérdida de paquetes fue del 45%
+	El tiempo promedio de espera de los paquetes fue de 13.84
+	El servidor se utilizó en un 97.57%
+
+
+
+
+Problema #3
+
+Bienvenido a la calculadora de simulaciones de python.
+¿Que deseas realizar?
+0. Finalizar
+1. Simulador de peluquería
+2. Simulador de sistema de redes
+3. Simulador de reaccion quimica
+4. Simulador de reactor nuclear
+5. Simulador de restaurante
+6. Simulador de restaurante 2
+Ingresa la opcion deseada: 4
+
+Ingrese la tasa de generación de calor en vatios (W): 6000
+Ingrese el coeficiente de enfriamiento (W/°C): 0.2
+Ingrese la temperatura del sistema de enfriamiento en grados Celsius (°C): 35
+Ingrese la capacidad térmica del reactor (J/°C): 3000
+Ingrese la temperatura inicial del reactor: 180
+Ingrese el tiempo de simulación en minutos: 60
+
+Conclusión:
+	La temperatura del reactor nuclear se va enfriando hasta aproximarse a una temperatura mínima de 45°C
+	El reactor practicamente alcanza esta temperatura a los 30 minutos, según lo que se puede apreciar en la gráfica
